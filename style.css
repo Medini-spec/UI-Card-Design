@@ -141,16 +141,44 @@ html, body{
 		max-width: 500px;
 		margin: 30px 0;
 	}
+	
+	.card:hover{
+	height: 750px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+}
 
 	
 
 }
 
 @media (max-width: 300px){
+
+	.container{
+	
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
 	.card{
-		height: 400px;
+		height: 300px;
 		max-width: 500px;
 		margin: 30px 0;
+		margin-bottom: 60px;
+	}
+
+	.card:hover{
+	height: 750px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+}
+
+	.card .img img{
+		height: 200px;
+		border: 8px solid crimson;
+		border-radius: 50%;
+		object-fit: cover;
 	}
 
 	.card .img img{
@@ -158,5 +186,7 @@ html, body{
 		border-radius: 50%;
 		object-fit: cover;
 	}
+
+
 
 }
