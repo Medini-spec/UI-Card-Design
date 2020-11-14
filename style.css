@@ -148,6 +148,20 @@ html, body{
 
 }
 	
+	.card .img img{
+		height: 300px;
+		border: 8px solid crimson;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+
+	.card .img img{
+		border: 8px solid crimson;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+
+	
 
 }
 
