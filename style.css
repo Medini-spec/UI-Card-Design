@@ -155,7 +155,7 @@ html, body{
 
 
 
-@media (max-width: 300px){
+@media (max-width: 400px){
 
 	.container{
 	
@@ -178,7 +178,7 @@ html, body{
 }
 
 	.card .img img{
-		height: 200px;
+		height: 300px;
 		border: 8px solid crimson;
 		border-radius: 50%;
 		object-fit: cover;
